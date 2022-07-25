@@ -8,7 +8,7 @@ export default function Post({ post }) {
       <h3>{post.frontmatter.title}</h3>
       <p>{post.frontmatter.excerpt}</p>
 
-      <Link href={'/blog/${post.slug}'}>
+      <Link href='/blog/${post.slug}'>
         <a className="btn">Read more</a>
       </Link>
     </div>
